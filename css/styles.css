@@ -8,13 +8,15 @@ ul.nav  {
   padding-left: 15px;
 }
 
-.nav>li {
+#HVC>li{
   padding-right: 15px
 }
 
 .red {
  color: red;
 }
+
+
 
 @media (min-width: 768px) {
 .navbar-form input.form-control  {
@@ -27,4 +29,14 @@ ul.nav  {
 .navbar-nav>li>a {
   padding-top: 0px;
 }
+}
+
+
+#list-three>li>a {
+  padding: 8px;
+
+}
+
+#col-three {
+  padding-top: 25px;
 }
