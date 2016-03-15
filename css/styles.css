@@ -1,0 +1,30 @@
+.navbar-default {
+  background-color: #fff;
+  border: none;
+  margin-top: 20px;
+}
+
+ul.nav  {
+  padding-left: 15px;
+}
+
+.nav>li {
+  padding-right: 15px
+}
+
+.red {
+ color: red;
+}
+
+@media (min-width: 768px) {
+.navbar-form input.form-control  {
+   width: 300px;
+   
+ }
+}
+
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+  padding-top: 0px;
+}
+}
