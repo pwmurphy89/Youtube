@@ -32,6 +32,10 @@
   padding: 0;
 }
 
+.top {
+	margin-bottom: 20px;
+}
+
 .featured {
 	/*border: 1px solid black;*/
 	background-color: #ddd;
