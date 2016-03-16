@@ -1,15 +1,7 @@
 .navbar-default {
   background-color: #fff;
   border: none;
-  margin-top: 20px;
-}
-
-ul.nav  {
-  padding-left: 15px;
-}
-
-#HVC>li{
-  padding-right: 15px
+  /*margin-top: 20px;*/
 }
 
 .red {
@@ -17,26 +9,26 @@ ul.nav  {
 }
 
 
-
-@media (min-width: 768px) {
-.navbar-form input.form-control  {
-   width: 300px;
-   
- }
-}
-
-@media (min-width: 768px) {
-.navbar-nav>li>a {
-  padding-top: 0px;
-}
-}
-
-
-#list-three>li>a {
-  padding: 8px;
+ #HVC>li{
+  padding: 0 0 0 15px;
 
 }
 
-#col-three {
-  padding-top: 25px;
+#list-two>li, #list-three>li {
+  padding: 0 0 0 10px;
 }
+
+#list-two {
+  margin-left: 21px;
+  margin-top: 10px;
+}
+
+#list-three {
+  margin-top: 10px
+
+}
+
+.nav>li>a {
+  padding: 0;
+}
+
