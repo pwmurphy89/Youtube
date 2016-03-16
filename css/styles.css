@@ -1,9 +1,12 @@
 .navbar-default {
   background-color: #fff;
   border: none;
-  /*margin-top: 20px;*/
+  margin-bottom: 0;
 }
 
+hr {
+  margin-bottom: 5px;
+}
 .red {
  color: red;
 }
@@ -26,6 +29,15 @@
 #list-three {
   margin-top: 10px
 
+}
+
+.page2-video-bar {
+  list-style-type: none;
+  padding-left: 0;
+}
+.page2-video-bar li{
+  display: inline;
+  padding-right: 20px;
 }
 
 .nav>li>a {
@@ -55,4 +67,7 @@
 }
 .more-videos>div {
 	padding-bottom: 8px;
+}
+iframe {
+  width: 100%;
 }
